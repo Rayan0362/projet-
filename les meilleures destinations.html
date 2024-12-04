@@ -11,26 +11,42 @@
             padding: 0;
             background-color: #f4f4f4;
             color: #333;
+            text-align: center; /* Centrer tout le texte */
         }
         header {
             background-color: #0078d7;
             color: white;
             padding: 20px 0;
-            text-align: center;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
         }
         main {
             padding: 20px;
         }
         .destination {
-            margin: 20px 0;
+            margin: 20px auto;
             padding: 15px;
             background-color: white;
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            max-width: 600px; /* Limite la largeur de la section */
         }
         .destination img {
-            width: 100%;
+            width: 300px; /* Taille uniforme pour toutes les images */
+            height: 200px; /* Hauteur uniforme pour toutes les images */
+            object-fit: cover; /* Assure que l'image s'adapte sans déformation */
             border-radius: 8px;
+            margin: 10px auto;
         }
         .destination h2 {
             margin-top: 10px;
@@ -51,30 +67,45 @@
         <p>Découvrez des lieux incroyables à visiter en 2025</p>
         <nav>
             <a href="vols.html">Vols</a>
-            <a href="les meilleures destinations.html">les meilleures destinations </a>
-            <a href="les hotels et hebergement.html">Hôtels</a>
-            <a href="location de voiture.html">Locations de Voitures</a>
+            <a href="meilleures-destinations.html">Destinations</a>
+            <a href="hotels-hebergements.html">Hôtels</a>
+            <a href="location-voitures.html">Voitures</a>
         </nav>
     </header>
     <main>
         <section class="destination">
-            <img src="https://th.bing.com/th/id/OIP.iXWEDQ6PXfqidZGkovWsRwHaE8?w=281&h=188&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Destination 1">
+            <img src="https://th.bing.com/th/id/OIP.iXWEDQ6PXfqidZGkovWsRwHaE8?w=281&h=188&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Bali, Indonésie">
             <h2>Bali, Indonésie</h2>
             <p>Avec ses plages paradisiaques, ses temples majestueux et ses paysages époustouflants, Bali reste une destination de rêve.</p>
         </section>
         <section class="destination">
-            <img src="https://th.bing.com/th/id/OPAN.DAAA21EBDB8C9521E95073964522D864?w=388&h=180&c=8&rs=1&pid=Attractions" alt="Destination 2">
+            <img src="https://cdn2.civitatis.com/francia/paris/galeria/torre-eiffel-altura.jpg" alt="Paris, France">
+            <h2>Paris, France</h2>
+            <p>Paris reste en 2024 la « meilleure destination touristique au monde » selon un rapport d'une société britannique. La capitale française devance Dubaï et Madrid.</p>
+        </section>
+        <section class="destination">
+            <img src="https://th.bing.com/th/id/OPAN.DAAA21EBDB8C9521E95073964522D864?w=388&h=180&c=8&rs=1&pid=Attractions" alt="Kyoto, Japon">
             <h2>Kyoto, Japon</h2>
             <p>Entre tradition et modernité, Kyoto vous charme avec ses temples historiques, ses jardins zen et sa culture unique.</p>
         </section>
         <section class="destination">
-            <img src="https://th.bing.com/th/id/OIP.D1LuzugHIaQiWLrDIPHoUgHaEo?w=316&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Destination 3">
+            <img src="https://th.bing.com/th/id/OIP.D1LuzugHIaQiWLrDIPHoUgHaEo?w=316&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Patagonie, Chili et Argentine">
             <h2>Patagonie, Chili et Argentine</h2>
             <p>Pour les amateurs de nature et d’aventure, la Patagonie offre des glaciers, des montagnes et des paysages hors du commun.</p>
         </section>
+        <section class="destination">
+            <img src="https://resize-elle.ladmedia.fr/rcrop/638,,forcex/img/var/plain_site/storage/images/loisirs/evasion/les-25-plus-belles-villes-du-monde-qui-nous-font-rever/londres-royaume-uni/61751779-1-fre-FR/Londres-Royaume-Uni.jpg" alt="Londres, Royaume-Uni">
+            <h2>Londres, Royaume-Uni</h2>
+            <p>Découvrez des lieux emblématiques comme le Parlement, Big Ben, ou encore le London Eye, qui attirent des millions de touristes chaque année.</p>
+        </section>
+        <section class="destination">
+            <img src="https://www.guideistanbul.fr/wp-content/uploads/2021/11/quand-visiter-istanbul.jpg" alt="Istanbul, Turquie">
+            <h2>Istanbul, Turquie</h2>
+            <p>Istanbul est une destination idéale pour les amoureux d'histoire et de culture, avec des monuments comme la Basilique Sainte-Sophie et la Mosquée Bleue.</p>
+        </section>
     </main>
     <footer>
-        <p>&copy; 2025 Guide de Voyage. Tous droits réservés.</p>
+        <p>&copy; 2025 - Les Meilleures Destinations</p>
     </footer>
 </body>
 </html>
